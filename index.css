@@ -1,0 +1,127 @@
+
+html, body{
+    height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    width: 45px;
+    height:45px;
+    border-radius:50%;
+    background-color: hsla(216, 12%, 54%, .1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.container{
+    position: absolute;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    color:hsl(216, 12%, 54%);
+    border-radius:25px; 
+    line-height: 1.5;
+    padding: 30px;
+    
+}
+
+.container h2{
+    color: white;
+    margin-bottom: 1px;
+    padding: 0px;
+}
+
+.container h1{
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    background-color:hsla(216, 12%, 54%, .1);
+    border-radius: 50%;
+    padding-top: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+  label:hover{
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+  }
+
+.rating:checked + label{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 340px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 17px;
+}
+
+.submit:active{
+    background-color:white;
+    color:  hsl(25, 97%, 53%);
+}
+
+.thankYouImage{
+    margin: 0 auto;
+    width: 175px;
+    margin-bottom: 40px;
+}
+
+.selectedRating{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: hsla(216, 12%, 54%, .1);
+    color:hsla(25, 97%, 53%, .8);
+    border-radius: 25px;
+}
+
+#thankYou h1{
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#thankYou p{
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+#thankYou{
+    visibility: hidden;
+}
