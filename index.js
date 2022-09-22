@@ -3,7 +3,7 @@
 
 
 
-   
+   const ratingForm = document.getElementById('ratingForm');
    const ratingAnswer = document.getElementsByName('rating:checked');
    const ratingQuestion = document.getElementById('ratingQuestion');
    const thankYouBox = document.getElementById('thankYou');
