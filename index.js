@@ -8,7 +8,7 @@
    const ratingQuestion = document.getElementById('ratingQuestion');
    const thankYouBox = document.getElementById('thankYou');
    const ratingSelect = document.getElementById('chosenRating');
-   const answer = ratingAnswer.value;
+   const answer = ratingAnswer;
 
    
  
