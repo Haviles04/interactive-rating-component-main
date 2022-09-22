@@ -4,11 +4,11 @@
 
 
    const ratingForm = document.getElementById('ratingForm');
-   const ratingAnswer = document.getElementsByName('rating:checked').value;
+   const ratingAnswer = document.getElementsByName('rating:checked');
    const ratingQuestion = document.getElementById('ratingQuestion');
    const thankYouBox = document.getElementById('thankYou');
    const ratingSelect = document.getElementById('chosenRating');
-
+   const answer = ratingAnswer.value;
 
    
  
