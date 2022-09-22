@@ -13,7 +13,7 @@
  
 
  const ratingSheetAnswer = () => {
- const ratingAnswer = document.getElementsByName('rating:checked');
+ const ratingAnswer = document.querySelector('.rating:checked');
  const answer = ratingAnswer.value;
          
          ratingQuestion.style.visibility ="hidden";
